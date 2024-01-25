@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#main, #sidebar {
+    padding: 15px;
+    background-color: gray;
+}
+
+#main {
+    width: 40%;
+    height: 150vh;
+    margin: 30px;
+    margin-right: 0;
+}
+
+#sidebar {
+    width: 25%;
+    position: -webkit-sticky;
+    position: sticky;
+    margin: 30px;
+    margin-left: 0;
+    top: 0;
+    background-color: darkgray;
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
